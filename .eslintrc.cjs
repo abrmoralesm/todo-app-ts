@@ -11,5 +11,8 @@ module.exports = {
     project: "./tsconfig.json",
   },
   plugins: ["react"],
-  rules: {},
+  rules: {
+    "react/prop-types": "off",
+    "react/react-in-jsx-scope": "off",
+  },
 };
